@@ -24,7 +24,7 @@ It’s like summoning a demon. The more you ask, the more mana it consumes.
 
 ---
 
-##🔐 .env Secrets (Important)
+## 🔐 .env Secrets (Important)
 
 All sensitive keys — like your Gemini API Key and Flask secret — are stored in a .env file.
 
