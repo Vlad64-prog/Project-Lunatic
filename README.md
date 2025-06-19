@@ -24,16 +24,20 @@ It’s like summoning a demon. The more you ask, the more mana it consumes.
 
 ---
 
-## 🔐 .env Secrets (Important)
+##🔐 .env Secrets (Important)
 
-All sensitive keys (like your Gemini API Key and Flask secret) are stored in a `.env` file.
+All sensitive keys — like your Gemini API Key and Flask secret — are stored in a .env file.
 
-**Already configured if you cloned this project.**
+You must generate your own API key from Google AI Studio to use the Gemini API.
 
-However, if you're modifying or deploying it yourself, create a file `.env` at the root and paste:
+> The .env file is already included in this project — you do not need to create a new one.
+
+
+
+Simply open the existing .env file and replace the placeholder with your actual credentials:
 
 ```env
-GEMINI_API_KEY=your_actual_gemini_api_key
+GEMINI_API_KEY=the Gemini key goes here
 SECRET_KEY=any_random_secure_string
 ```
 
